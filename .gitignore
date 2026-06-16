@@ -1,0 +1,31 @@
+# Entornos virtuales (Librerías locales)
+.venv/
+miniconda3/
+env/
+
+# Carpetas de memoria rápida de Python (El cuarto de máquinas que vimos)
+__pycache__/
+*.pyc
+
+# Datos privados y pesados (Tu base de datos SQLite)
+data/market_data.db
+
+# Credenciales secretas (Tus contraseñas de Gmail)
+.env
+
+# Archivos temporales o basura de Windows/VS Code
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Excluir archivos pesados que estén dentro de la carpeta de viejos
+Archivos_viejos/*.db
+Archivos_viejos/*.geojson
+Archivos_viejos/*.csv
+Archivos_viejos/*.shp
+Archivos_viejos/*.dbf
+Archivos_viejos/*.shx
+Archivos_viejos/*.prj
+Archivos_viejos/*.qmd
+Archivos_viejos/*.cpg
+Archivos_viejos/*.json

@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Precio_COP   R-squared:                       0.055
+Model:                            OLS   Adj. R-squared:                  0.029
+Method:                 Least Squares   F-statistic:                     2.118
+Date:                Sat, 23 May 2026   Prob (F-statistic):             0.0815
+Time:                        22:36:43   Log-Likelihood:                -3036.7
+No. Observations:                 150   AIC:                             6083.
+Df Residuals:                     145   BIC:                             6098.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          3.18e+08   6.32e+07      5.031      0.000    1.93e+08    4.43e+08
+Area_m2      -2.605e+05   2.06e+05     -1.266      0.207   -6.67e+05    1.46e+05
+Habitaciones  1.029e+07    1.1e+07      0.936      0.351   -1.14e+07     3.2e+07
+Baños        -3.686e+06   1.53e+07     -0.241      0.810   -3.39e+07    2.65e+07
+Estrato       2.563e+07    1.1e+07      2.326      0.021    3.85e+06    4.74e+07
+==============================================================================
+Omnibus:                       16.365   Durbin-Watson:                   2.163
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                5.595
+Skew:                          -0.130   Prob(JB):                       0.0610
+Kurtosis:                       2.090   Cond. No.                         796.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
